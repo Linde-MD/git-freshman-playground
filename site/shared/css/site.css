@@ -1,0 +1,94 @@
+:root {
+  --bg: #f5f7fb;
+  --card: #ffffff;
+  --line: #dce3ee;
+  --ink: #102a43;
+  --muted: #52606d;
+  --brand: #0f6ad6;
+}
+
+body {
+  background: radial-gradient(circle at 10% 0%, #eaf2ff 0, transparent 40%), var(--bg);
+  color: var(--ink);
+  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.site-header {
+  background: linear-gradient(120deg, #0f6ad6, #0b4da0);
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.site-title {
+  font-size: 1.5rem;
+  letter-spacing: 0.2px;
+}
+
+.site-subtitle {
+  opacity: 0.88;
+}
+
+.content-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 8px 24px rgba(16, 42, 67, 0.08);
+}
+
+.small-panel {
+  border: 1px dashed #bfd3f2;
+  border-radius: 12px;
+  padding: 0.9rem;
+  background: #f8fbff;
+}
+
+.board-column {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fbfdff;
+  min-height: 320px;
+}
+
+.board-column h3 {
+  margin: 0;
+  font-size: 1rem;
+  background: #eaf2ff;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.board-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.65rem;
+}
+
+.board-item {
+  border: 1px solid #d7e2f1;
+  border-radius: 8px;
+  padding: 0.6rem;
+  background: #fff;
+  margin-bottom: 0.55rem;
+  font-size: 0.92rem;
+}
+
+.nav-tabs .nav-link {
+  color: #415a77;
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--brand);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .content-card {
+    padding: 0.95rem;
+  }
+
+  .site-title {
+    font-size: 1.2rem;
+  }
+}
