@@ -8,7 +8,7 @@
 
 ## In Progress
 
-- No active task yet
+- TASK-04: Conflict demo
 
 ## Done
 
